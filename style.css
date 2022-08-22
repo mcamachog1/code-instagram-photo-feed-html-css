@@ -1,0 +1,75 @@
+body {
+    font-family: 'Roboto', serif;
+}
+
+.to-center {
+    text-align: center;
+}
+
+.to-right {
+    margin-left: 56%;
+}
+
+.font-gray {
+    color: gray;
+}
+
+.my-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+    object-fit: cover;
+}
+
+
+.header {
+    padding-top: 0%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+}
+
+.parent {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: gainsboro;
+    padding-bottom: 3%;
+}
+
+.child {
+    width: 40%;
+    height: 40%;
+    margin-top: 3%;
+    background-color: white;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+
+}
+
+.footer {
+
+    padding: 3%;
+    margin: 0;
+
+}
+
+.my-margin {
+    margin: 2px;
+}
+
+.my-padding {
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.bold {
+    font-weight: bold;
+}
